@@ -16,6 +16,9 @@ elif rechenoperation == "/":
         ergebnis = "undefined"
     else:
         ergebnis = zahl1 / zahl2
+else:
+    print("Arithmetic operation unknown!")
+    ergebnis = "undefined"
 
 print("The arithmetic operation chosen was: " + str(rechenoperation))
 print("The result is: " + str(ergebnis))
